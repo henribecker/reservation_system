@@ -3,5 +3,5 @@ from .views import index
 
 urlpatterns = [
     path('', index, name='Index'),
-    path('', include('allauth.urls')),
+    path('', include('django.contrib.auth.urls')),
 ]
