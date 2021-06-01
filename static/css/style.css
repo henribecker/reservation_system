@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+section {
+    display: block;
+    position: relative;
+    height: 100vh;
+}
+section header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+section header .logo {
+    text-decoration: none;
+    margin-left: 200px;
+    font-weight: 800;
+    font-size: 1.5em;
+    color: #fff;
+}
+section header ul {
+    list-style: none;
+    display: flex;
+    margin-right: 200px;
+}
+section header ul li {
+    width: 100px;
+    height: 30px;
+    margin-left: 40px; 
+}
+section header ul li a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
+}
+section header ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    height: 300px;
+    background-color: #000000;
+    z-index: 1000;
+}
+footer .footer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #000000;
+}
+footer .footer .card {
+    display: block;
+    height: 80%;
+    width: 250px;
+    padding-left: 5px;
+    border-left: 1.5px solid #fff;
+    color: #fff;
+    font-size: 0.9em;
+    box-sizing: border-box;
+}
+footer .footer .card ul {
+    display: flex;
+    height: 80%;
+    list-style: none;
+    align-items: center;
+
+}
+footer .footer .card ul li {
+    display: inline-flex;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 70px;
+
+}
+footer .footer .card ul li a {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    background-color: #fff;
+}
+footer .footer .card ul li a img {
+    width: 35px;
+    height: 35px;
+}
+footer .footer .card ul li a:hover {
+    background-color: #3fc5a7;
+}
+footer .footer .card p {
+    display: flex;
+    height: 70%;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: justify;
+}
+.container {
+    background: url('../img/fundo.jpg');
+    display: flex;
+    height: 100vh;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: start;
+    align-items: center;  
+}
